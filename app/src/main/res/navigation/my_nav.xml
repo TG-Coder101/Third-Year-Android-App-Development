@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/classroomFragment">
+
+    <fragment
+        android:id="@+id/classroomFragment"
+        android:name="uk.ac.abertay.cmp309.mainmenu_project.fragments.ClassroomFragment"
+        android:label="My Students"
+        tools:layout="@layout/fragment_classroom" >
+        <action
+            android:id="@+id/action_classroomFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_classroomFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="uk.ac.abertay.cmp309.mainmenu_project.fragments.AddFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_classroomFragment"
+            app:destination="@id/classroomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="uk.ac.abertay.cmp309.mainmenu_project.fragments.update.UpdateFragment"
+        android:label="Update"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_classroomFragment"
+            app:destination="@id/classroomFragment" />
+        <argument
+            android:name="currentStudent"
+            app:argType="uk.ac.abertay.cmp309.mainmenu_project.fragments.model.Student" />
+    </fragment>
+</navigation>

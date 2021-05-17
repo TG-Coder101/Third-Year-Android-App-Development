@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Must Use Drawer Layout instead of Constraint Layout-->
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <!--Custom Toolbar Included-->
+    <include
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        layout="@layout/android_app_bar_main"
+        />
+
+
+    <!--Added Navigation View-->
+    <!--android:layout_gravity arranges the view's position outside of itself-->
+    <!--header file inserted-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navi_view"
+        android:background="@color/whiteColour"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/header_file"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

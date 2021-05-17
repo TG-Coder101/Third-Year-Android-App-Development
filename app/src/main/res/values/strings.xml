@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name" translatable="false">Teaching Assistant</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="work" translatable="false">My Class</string>
+    <string name="school" translatable="false">School</string>
+    <string name="timeline" translatable="false">Timeline</string>
+    <string name="controls" translatable="false">Controls</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="android">Android</string>
+    <string name="the_teaching_app">The Teaching App</string>
+    <string name="The_Teaching_App" />
+    <string name="by_tom_gardner">By Tom Gardner</string>
+    <string name="todo">TODO</string>
+    <string name="teaching_assistant">App Navigation</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="timetable">Timetable</string>
+    <string name="MyClass">Class</string>
+    <string name="Classroom">Classroom</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="load_fragment">Load Fragment</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="save_date">Save Date</string>
+    <string name="event">Event</string>
+
+    <item name="editText" type="id" />
+    <string name="title_activity_maps">Map</string>
+    <string name="find_school">Find School</string>
+    <string name="enter_address_city_or_post_code">Enter Address, City, or Post Code</string>
+    <string name="title_activity_maps_test">Map</string>
+    <string name="test" />
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="add">Add</string>
+    <string name="age">Age</string>
+    <string name="year_group">Year Group</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="Add_Students" />
+    <string name="Settings" />
+    <string name="choose_theme_text" />
+    <string name="delete">Delete</string>
+    <string name="Calendar" />
+    <string name="title_activity_google_calendar">GoogleCalendar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
