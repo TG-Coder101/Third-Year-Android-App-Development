@@ -1,6 +1,12 @@
 # Third-Year-Android-App-Development
 
-This is an Android Application that I made for one of my modules in Third Year
+This is a Android Application made for teachers that I made for one of my modules in Third Year. 
+
+Navigation: Pop out navigation drawer.
+Database: ROOM database.
+Google Calendar for user created events. 
+API: Google Maps
+
 
 
 
