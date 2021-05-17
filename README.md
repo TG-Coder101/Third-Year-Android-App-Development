@@ -2,7 +2,7 @@
 
 This is a Android Application made for teachers that I made for one of my modules in Third Year. 
 
-Navigation: Pop out navigation drawer.
+Navigation: Sliding navigation drawer.
 
 Database: ROOM database.
 
