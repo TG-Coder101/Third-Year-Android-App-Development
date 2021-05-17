@@ -24,4 +24,3 @@ Kuntal, S., 2021. SQLite Made Easy : Room Persistence Library. [online] Medium. 
 Kantamani, S., 2021. Introduction to Kotlin Coroutines. [online] Medium. Available at: <https://medium.com/android-dev-hacks/introduction-to-kotlin-coroutines-72a951577468> [Accessed 11 May 2021].
 Android Developers. 2021. Data Binding Library  |  Android Developers. [online] Available at: <https://developer.android.com/topic/libraries/data-binding> [Accessed 11 May 2021].
 
-![image](https://user-images.githubusercontent.com/58516757/118518406-ffecff80-b72f-11eb-8fe8-f2d6f10111ba.png)
