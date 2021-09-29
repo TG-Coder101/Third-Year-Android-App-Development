@@ -2,6 +2,8 @@
 
 This is a Android Application made for teachers that I made for one of my modules in Third Year. 
 
+Grade: B+
+
 Navigation: Sliding navigation drawer.
 
 Database: ROOM database.
